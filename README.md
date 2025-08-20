@@ -4,6 +4,8 @@
 
 A comprehensive Integrated Development Environment (IDE) for the Brainfuck esoteric programming language, built with modern C++ and Qt. This high-performance IDE provides debugging capabilities, memory visualization, compilation analysis, and configurable interpreter behavior with native performance.
 
+This project is a direct port of my previous **[MindBoggler](https://github.com/VikSn0w/MindBoggler)** project, which is written in Python using PySide6 as GUI framework. 
+
 ## Table of Contents
 
 - [About Brainfuck](#about-brainfuck)
@@ -105,8 +107,8 @@ brew install cmake git qt@6
 
 ```bash
 # Clone the repository
-git clone https://github.com/YourUsername/MindBoggler-CPP.git
-cd MindBoggler-CPP
+git clone https://github.com/VikSn0w/MindBogglerCPP.git
+cd MindBogglerCPP
 
 # Create build directory
 mkdir build && cd build
@@ -150,7 +152,7 @@ Pre-built binaries are available for all major platforms:
 - **Linux**: AppImage, DEB, and RPM packages
 - **macOS**: DMG installer
 
-Download from the [Releases Page](https://github.com/YourUsername/MindBoggler-CPP/releases).
+Download from the [Releases Page](https://github.com/VikSn0w/MindBogglerCPP/releases).
 
 ---
 
@@ -566,5 +568,6 @@ Contributions are welcome! Areas for improvement:
 This project is released under the GNU General Public License Version 3. See LICENSE file for details.
 
 ---
+
 
 *Built with ❤️ using modern C++ and Qt*
